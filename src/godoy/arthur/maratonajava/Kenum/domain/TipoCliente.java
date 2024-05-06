@@ -8,7 +8,7 @@ public enum TipoCliente {
     public  String nomeRelatorio;
     TipoCliente(int valor, String nome) {
         this.valor = valor;
-        this.nomeRelatorio = nomeRelatorio;
+        this.nomeRelatorio = nome;
     }
     public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio){
         for (TipoCliente tipoCliente : values()) {
